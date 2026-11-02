@@ -1,0 +1,5 @@
+git clone --bare https://github.com/notbatman-veeam/notbatman-veeam.github.io.git
+cd notbatman-veeam.github.io.git
+git push --mirror https://github.com/YOUR-USERNAME/YOUR-NEW-REPO.git
+cd ..
+rm -rf notbatman-veeam.github.io.git
